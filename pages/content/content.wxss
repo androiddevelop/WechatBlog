@@ -1,0 +1,17 @@
+/* pages/content/content.wxss */
+
+.content-container{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  padding-top: 8px;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
+.content-img{  
+    width: auto;  
+    height: auto;  
+    max-width: 100%;  
+    max-height: 100%;     
+}  

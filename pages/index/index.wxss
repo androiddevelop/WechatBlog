@@ -1,0 +1,10 @@
+/**index.wxss**/
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+  padding: 5px;
+  font-size: 17px;
+}
