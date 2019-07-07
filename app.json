@@ -5,9 +5,10 @@
     "pages/content/content"
   ],
   "window": {
-    "backgroundTextStyle": "white",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#262626",
     "navigationBarTitleText": "小胖轩",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
