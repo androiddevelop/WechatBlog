@@ -5,6 +5,7 @@
   padding-right: 10px;
   display: flex;
   padding-top: 8px;
+  padding-bottom: 8px;
   flex-direction: column;
   background-color: #eeeeee;
 }
