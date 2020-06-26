@@ -1,4 +1,7 @@
 // pages/content/content.js
+
+var url = '';
+
 Page({
 
   /**
@@ -12,12 +15,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var url = 'https://www.codeboy.me/wechat/content/' + options.path;
-    wx.setNavigationBarTitle({
-      title: options.title
-    })
+    if(options){
+      url = 'https://www.codeboy.me/wechat/content/' + options.path;
+      wx.setNavigationBarTitle({
+        title: options.title
+      })
+    }
     var that = this;
     wx.showLoading({
+      mask: true,
       title: '加载中'
     })
     wx.request({
@@ -41,5 +47,9 @@ Page({
         });
       }
     })
-  }
+  },
+  onPullDownRefresh: function () {
+    this.onLoad();
+    wx.stopPullDownRefresh();
+  },
 })
