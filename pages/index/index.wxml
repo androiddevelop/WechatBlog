@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <scroll-view scroll-y >
-    <li wx:for="{{blogData}}" wx:for-index="idx" wx:for-item="item" bindtap="openBlog" class='title' wx:key="{{item.id}}" data-id="{{item.id}}" data-title="{{item.title}}">
+    <li wx:for="{{blogData}}" wx:for-index="idx" wx:for-item="item" bindtap="openBlog" class='title' wx:key="id" data-id="{{item.id}}" data-title="{{item.title}}">
        {{item.title}}
     </li>
   </scroll-view>

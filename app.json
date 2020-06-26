@@ -5,7 +5,7 @@
     "pages/content/content"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#262626",
     "navigationBarTitleText": "小胖轩",
     "navigationBarTextStyle": "white"
